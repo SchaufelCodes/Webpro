@@ -1,1 +1,44 @@
-
+body {
+     font-family: cabin;
+}
+nav li {
+    display: inline;
+}
+header ul {
+    float: right;
+    
+} 
+#logo {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    display: inline-block;
+}
+main {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
+se
+#wrap {
+    
+}
+#left {
+    margin: 1%;
+    width: 26%;
+    float: left;
+}
+#center {
+    margin: 1%;
+    width: 26%;
+    float: left;
+    
+}
+#right {
+    margin: 1%;
+    width: 26%;
+    float: left;    
+}
+footer {
+    display: block;
+}
