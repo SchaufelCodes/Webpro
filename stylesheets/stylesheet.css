@@ -2,7 +2,7 @@ body {
      font-family: cabin;bgcolor:red;
 }
 nav li {
-    display: inline;bgcolor:black;margin:5%;padding:10%;
+    display: inline;bgcolor:black;margin:5%;border:5%;padding:10%;
 }
 header ul {
     float: right;
