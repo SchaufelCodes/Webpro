@@ -1,8 +1,8 @@
 body {
-     font-family: cabin;
+     font-family: cabin;bgcolor:red;
 }
 nav li {
-    display: inline;
+    display: inline;bgcolor:black;margin:5%;padding:10%;
 }
 header ul {
     float: right;
