@@ -1,29 +1,6 @@
-body {
-    background-color: #f7f7f7;
-    margin: 0;
-}
-#home {
-    border-left: 2px solid black;
-    border-right: 1px solid black;
-}
-#news {
-    border-left: 1px solid black;
-    border-right: 1px solid black;	
-}
-#contact{
-
-    border-left: 1px solid black;
-    border-right: 1px solid black;	
-}
-#about {	
-    border-left: 1px solid black;
-    border-right: 2px solid black;
-}
 nav li{
     display: inline;
-}
-nav ul {
-    padding-right: 38.2%;
+    width:24%;
 }
 nav {
     width: 100%;
@@ -31,85 +8,96 @@ nav {
     border-bottom: 4px solid black;
     border-top: 4px solid black;
 }
-#bilde{
-    float: left;
-    padding-left: 20px;
-    padding-top: 10px;
+nav ul{
+	margin-top: 0;
+    margin-bottom: 0;
+}
+
+#navigator1{
+	float: left;
+}
+#navigator2{
+	float: left;
+}
+#home {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    margin-left: -40px;
+    font-size: 1.8em;
+}
+#news {
+   	margin-left: -4px;
+    border-right: 2px solid black;	
+    font-size: 1.8em;
+}
+#contact{
+
+    margin-left: -4px;
+    border-right: 2px solid black;	
+    font-size: 1.8em;
+}
+#about {	
+    margin-left: -4px;
+    border-right: 2px solid black;
+    font-size: 1.8em;
+}
+#frontbilde{
+	margin-right: 5em;
+	margin-left: -25px;
+
+}
+#bildet{
+	margin-bottom: -0.65em;
+	width:11em;
+	height: 42px;
+
+
+}
+.boxene{
+
+	float:left;
+	width:24%;
+}
+.left{
+	float:left;
+}
+.clear{
+	clear:left;
+}
+#logo {
+	margin-top: 3em;
+	margin-left: 10%;
+}
+#bulletpoints {
+	font-size: 28px;
 }
 nav li a:link, nav li a:visited {
     display: inline-block;
-    width: 10%;              
+    width: 12%;              
     font-weight: bold;
-    color: #FFFFFF;
+    font-family: 'Russo One', sans-serif;
+    color: black;
     background-color: #98bf21;   
     text-align: center;
     padding-top: 4px;
     text-decoration: none;
-    text-transform: uppercase;  
+    text-transform: lowercase;  
     height: 38px;
     font-size: 1.8em;
-}
-#bulletpoints {
-    overflow:hidden;
-}
-nav li a:hover, nav li a:active {
-    background-color: #98bf21;
+
+
 }
 nav li a:hover {
     background-color: #7A991A;
 
 }
-nav ul {
-    display: inline;
-}
-header ul {
-    float: right;
-    font-size: 28px;
-    padding-right: 130px;
-    padding-top: 40px;
+header{
 
-} 
-#logo {
-    padding-top: 30px;
-    display: inline-block;
+
 }
-main {
-    margin-left: 10%;
-    margin-right: 10%;
-    width: 80%;
+body{
+	margin:0;
 }
-#wrap {
-    overflow: hidden;
-}
-#left {
-    padding-left: 100px;
-    padding-top: 10px;
-    margin: 1%;
-    width: 26%;
-    float: left;
-}
-#center {
-    padding-top: 10px;
-    margin: 1%;
-    width: 26%;
-    float: left;
-}
-#right {
-    padding-top: 10px;
-    margin: 1%;
-    width: 26%;
-    float: left;    
-}
-#footer1 {  
-    margin: 0px;
-    background-color: #98bf21;
-    text-align: center;
-    border-top: 3px solid black;
-    border-bottom: 3px solid black;
-}
-#footer2 {
-    text-align: center;
-    background-color: #98bf21;
-    border-top: 3px solid black;
-    border-bottom: 3px solid black;
+ul li{
+	
 }
