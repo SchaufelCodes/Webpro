@@ -1,3 +1,4 @@
+
 nav li{
     display: inline;
     width:24%;
@@ -5,8 +6,8 @@ nav li{
 nav {
     width: 100%;
     background-color: #98bf21;
-    border-bottom: 4px solid black;
-    border-top: 4px solid black;
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
 }
 nav ul{
 	margin-top: 0;
@@ -22,7 +23,7 @@ nav ul{
 #home {
     border-left: 2px solid black;
     border-right: 2px solid black;
-    margin-left: -40px;
+    margin-left: -43px;
     font-size: 1.8em;
 }
 #news {
@@ -51,12 +52,15 @@ nav ul{
 	width:11em;
 	height: 42px;
 
-
 }
-.boxene{
 
+.boxene{
 	float:left;
 	width:24%;
+	margin-left: 105px;
+	margin-bottom: 20px;
+
+
 }
 .left{
 	float:left;
@@ -64,10 +68,19 @@ nav ul{
 .clear{
 	clear:left;
 }
-#logo {
+#logo1 {
 	margin-top: 3em;
-	margin-left: 10%;
+	margin-left: 20%;
 }
+#logo2 {
+	margin-top: 3em;
+	margin-left: 5%;
+	margin-right: 300px;
+}
+#usb1 {
+ 	height: 400px;
+ 	width: 450px; 
+ }
 #bulletpoints {
 	font-size: 28px;
 }
@@ -76,11 +89,11 @@ nav li a:link, nav li a:visited {
     width: 12%;              
     font-weight: bold;
     font-family: 'Russo One', sans-serif;
-    color: black;
+    color: #333333;
     background-color: #98bf21;   
     text-align: center;
     padding-top: 4px;
-    text-decoration: none;
+    text-decoration:none;
     text-transform: lowercase;  
     height: 38px;
     font-size: 1.8em;
@@ -91,8 +104,8 @@ nav li a:hover {
     background-color: #7A991A;
 
 }
-header{
-
+#top{
+	border: 5px solid red;
 
 }
 body{
@@ -101,3 +114,25 @@ body{
 ul li{
 	
 }
+#footer1{
+	width: 100%;
+    background-color: #98bf21;
+    text-align: center;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    float: right;
+    line-height: 30%;
+    bottom:0;
+    
+}
+#footer2{
+	width: 100%;
+    background-color: #98bf21;
+    text-align: center;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    float: right;
+    line-height: 30%;
+    bottom:0;
+    
+    }
